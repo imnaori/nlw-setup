@@ -22,10 +22,11 @@ header {
   width: 100%;
 }
 
+
 button {
   padding: 16px 24px;
   border-radius: 8px;
-  border: 1px solid #8b5cf6;
+  border: 3px solid #fb7185;
   background-color: transparent;
   color: white;
 
@@ -37,6 +38,10 @@ button {
   font-weight: 600;
   font-size: 16px;
   line-height: 125%;
+}
+
+button svg path {
+  stroke: #fb7185;
 }
 
 form {
@@ -103,8 +108,8 @@ input {
 }
 
 input:checked {
-  background: #8b5cf6;
-  border: 2px solid #a78bfa;
+  background: #fb7185;
+  border: 4px solid #fd8c9d;
 }
 
 @media (max-width: 570px) {
