@@ -23,9 +23,8 @@ function save() {
   localStorage.setItem("NLWSetup@habits", JSON.stringify(nlwSetup.data));
 }
 
-const data = JSON.parse(localStorage.getItem("NLWSetup@habits")) || {
-  run: ["01-21", "01-20", "01-19", "01-18", "01-17", "01-16", "01-15"]
-};
+const data = JSON.parse(localStorage.getItem("NLWSetup@habits")) || {};
+
 
 nlwSetup.setData(data);
 nlwSetup.load();
